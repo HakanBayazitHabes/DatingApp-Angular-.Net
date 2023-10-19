@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eWyRo5ufB9fPBfDDxNEIUh3luE3x2uadNMz+c9ejtBso5QMpHxhYfyvH6nAX9hrImf+0rgm43WfNnzRX3aKNNQ==",
+  "dgSpecHash": "ydxZl51TEvkPPP3zgTav/IJg1RDdERzGIobTPuCC9NYLk/FewF8uXppJLuvbRB7H7pUadODddfalZ7975m6jew==",
   "success": true,
   "projectFilePath": "/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/API.csproj",
-  "expectedPackageFiles": [
-    "/Users/hakanbayazithabes/.nuget/packages/microsoft.aspnetcore.openapi/7.0.11/microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
-    "/Users/hakanbayazithabes/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/hakanbayazithabes/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
-    "/Users/hakanbayazithabes/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
-    "/Users/hakanbayazithabes/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
-    "/Users/hakanbayazithabes/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/Users/hakanbayazithabes/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
