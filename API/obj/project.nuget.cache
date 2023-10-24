@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5hoXCtIz0NkGJpmHO5Yy8pFLgtJ4WfGskgemAxFVH8F0Pof9LavmZrVY1ihzmPWrpg3f7rAl8pE48Y8hPRqUyw==",
+  "dgSpecHash": "fcnCOX+9BpAI5GMXO+LUCgXFOGu3gbmY7NlZ2MKq8ebVSJN/kNoeCAdrcHH0nKdtfplzOO4GuDhCOKLpov+XjA==",
   "success": true,
   "projectFilePath": "/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
@@ -23,12 +23,17 @@
     "/Users/hakanbayazithabes/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/hakanbayazithabes/.nuget/packages/microsoft.identitymodel.abstractions/7.0.3/microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "/Users/hakanbayazithabes/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.0.3/microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "/Users/hakanbayazithabes/.nuget/packages/microsoft.identitymodel.logging/7.0.3/microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "/Users/hakanbayazithabes/.nuget/packages/microsoft.identitymodel.tokens/7.0.3/microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.4/sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
+    "/Users/hakanbayazithabes/.nuget/packages/system.identitymodel.tokens.jwt/7.0.3/system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/hakanbayazithabes/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
