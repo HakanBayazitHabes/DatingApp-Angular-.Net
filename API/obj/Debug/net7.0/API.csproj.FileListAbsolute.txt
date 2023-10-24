@@ -66,3 +66,6 @@
 /Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
 /Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
