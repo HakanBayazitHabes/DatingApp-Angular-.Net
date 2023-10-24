@@ -61,3 +61,8 @@
 /Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/hakanbayazithabes/Desktop/Software/Asp.Net Core/DatingApp/API/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
