@@ -1,5 +1,7 @@
+using API.Data;
 using API.Extensions;
 using API.Middleware;
+using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,7 +28,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-uaing var scope = app.Services.CreateScope();
+using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;
 try
 {
