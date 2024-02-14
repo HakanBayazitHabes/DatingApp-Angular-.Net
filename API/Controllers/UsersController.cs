@@ -78,7 +78,7 @@ public class UsersController : BaseApiController
 
         if (await _userRepository.SaveAllAsync())
         {
-            return _mapper.Map<PhotoDto>(photo);
+            return CreatedAtAction(nameof(GetUser), new { username = user.UserName }, _mapper.Map<PhotoDto>(photo));
         }
 
         return BadRequest("Problem adding photo");
