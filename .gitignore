@@ -478,3 +478,5 @@ $RECYCLE.BIN/
 **/bin/
 **/obj/
 API/appsettings.json
+API/datingapp.db-shm
+API/datingapp.db-wal
