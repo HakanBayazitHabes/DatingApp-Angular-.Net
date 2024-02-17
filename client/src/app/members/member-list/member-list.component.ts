@@ -3,6 +3,8 @@ import { Observable } from 'rxjs';
 import { Member } from 'src/app/_models/member';
 import { Pagination } from 'src/app/_models/pagination';
 import { MembersService } from 'src/app/_services/members.service';
+import { FormsModule } from '@angular/forms';
+import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 
 @Component({
   selector: 'app-member-list',
@@ -32,5 +34,11 @@ export class MemberListComponent implements OnInit {
         }
       },
     });
+  }
+  pageChanged($event: PageChangedEvent) {
+    if (this.pageNumber !== $event.page) {
+      this.pageNumber = $event.page;
+      this.loadMembers();
+    }
   }
 }
