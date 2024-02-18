@@ -17,15 +17,17 @@ public class TokenService : ITokenService
     public string CreateToken(AppUser user)
     {
         var claims = new List<Claim>{
-            new Claim(JwtRegisteredClaimNames.NameId, user.UserName)
+            new Claim(JwtRegisteredClaimNames.NameId, user.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.UniqueName, user.UserName)
         };
-        var creds = new SigningCredentials(_key,SecurityAlgorithms.HmacSha256Signature);
+        var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha256Signature);
 
-        var tokenDescriptor = new SecurityTokenDescriptor{
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
             Subject = new ClaimsIdentity(claims),
             Expires = DateTime.Now.AddDays(7),
             SigningCredentials = creds
-        } ;
+        };
 
         var tokenHandler = new JwtSecurityTokenHandler();
         var token = tokenHandler.CreateToken(tokenDescriptor);
