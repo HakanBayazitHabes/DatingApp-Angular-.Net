@@ -1,6 +1,8 @@
 using API.Data;
+using API.Entities;
 using API.Extensions;
 using API.Middleware;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -33,10 +35,12 @@ var services = scope.ServiceProvider;
 try
 {
     var context = services.GetRequiredService<DataContext>();
+    var userManager = services.GetRequiredService<UserManager<AppUser>>();
     await context.Database.MigrateAsync();
-    await Seed.SeedUsers(context);
+    await Seed.SeedUsers(userManager);
 }
-catch(Exception ex){
+catch (Exception ex)
+{
     var logger = services.GetService<ILogger<Program>>();
     logger.LogError(ex, "An error occured during migration");
 }
