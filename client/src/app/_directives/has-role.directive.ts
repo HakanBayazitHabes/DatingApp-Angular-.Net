@@ -7,6 +7,7 @@ import {
 } from '@angular/core';
 import { User } from '../_models/user';
 import { AccountService } from '../_services/account.service';
+import { take } from 'rxjs';
 
 @Directive({
   selector: '[appHasRole]',
@@ -20,7 +21,7 @@ export class HasRoleDirective implements OnInit {
     private templateRef: TemplateRef<any>,
     private accountService: AccountService
   ) {
-    this.accountService.currentUser$.subscribe((user) => {
+    this.accountService.currentUser$.pipe(take(1)).subscribe((user) => {
       if (user) this.user = user;
     });
   }
