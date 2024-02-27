@@ -21,7 +21,11 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 app.UseMiddleware<ExceptionMiddleware>();
 
-app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+app.UseCors(builder => builder.AllowAnyHeader()
+    .AllowAnyMethod()
+    // We will say allow credentials, otherwise we will have a problem with our client-to-server authentication.
+    .AllowCredentials()
+    .WithOrigins("https://localhost:4200"));
 
 app.UseHttpsRedirection();
 
