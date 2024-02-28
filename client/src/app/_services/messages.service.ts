@@ -35,7 +35,9 @@ export class MessagesService {
   }
 
   stopHubConnection() {
-    this.hubConnection?.stop();
+    if (this.hubConnection) {
+      this.hubConnection?.stop();
+    }
   }
 
   getMessage(pagenumber: number, pageSize: number, container: string) {
