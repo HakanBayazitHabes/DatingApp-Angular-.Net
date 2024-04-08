@@ -10,7 +10,7 @@ export class ConfirmDialogComponent implements OnInit {
   title = '';
   message = '';
   btnOkText = '';
-  btnCanceltext = '';
+  btnCancelText = '';
   result = false;
 
   constructor(public bsModalRef: BsModalRef) {}
