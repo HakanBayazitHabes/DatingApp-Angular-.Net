@@ -10,7 +10,7 @@ primary_region = 'ams'
   image = 'hakanbayazithabes/datingapp:latest'
 
 [env]
-  ASPNETCORE_URLS="http://+8080"
+  ASPNETCORE_URLS="http://+:8080"
   CloudinarySettings__CloudName="dfi0mnhix"
   CloudinarySettings__ApiKey="174731433374675 "
 
