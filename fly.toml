@@ -1,0 +1,26 @@
+# fly.toml app configuration file generated for da-tingapp on 2024-04-13T02:01:01+03:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'da-tingapp'
+primary_region = 'ams'
+
+[build]
+  image = 'hakanbayazithabes/datingapp:latest'
+
+[env]
+  ASPNETCORE_URLS="http://+8080"
+  CloudinarySettings__CloudName="dfi0mnhix"
+  CloudinarySettings__ApiKey="174731433374675 "
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  size = 'shared-cpu-1x'
