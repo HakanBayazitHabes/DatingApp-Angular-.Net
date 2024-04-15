@@ -12,7 +12,7 @@ primary_region = 'ams'
 [env]
   ASPNETCORE_URLS="http://+:8080"
   CloudinarySettings__CloudName="dfi0mnhix"
-  CloudinarySettings__ApiKey="174731433374675 "
+  CloudinarySettings__ApiKey="174731433374675"
 
 [http_service]
   internal_port = 8080
